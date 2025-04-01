@@ -250,7 +250,7 @@ box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.38);
 }
 
 .addBg .navbar-brand img {
-	height: 30px; /* Slightly smaller when scrolled */
+	height: 90px; /* Slightly smaller when scrolled */
 }
 
 .navbar-inverse .navbar-nav > li > a {
