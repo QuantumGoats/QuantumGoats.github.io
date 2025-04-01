@@ -156,8 +156,8 @@ h2 {
 }
 
 .navbar-brand img {
-	height: 200px; /* Adjust the height as needed */
-	margin-top: -5px; /* Fine-tune vertical alignment */
+	height: 150px; /* Adjust the height as needed */
+	margin-top: -1px; /* Fine-tune vertical alignment */
 	display: inline-block;
 }
 
