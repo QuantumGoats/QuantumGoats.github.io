@@ -156,9 +156,10 @@ h2 {
 }
 
 .navbar-brand img {
-	height: 150px; /* Adjust the height as needed */
-	margin-top: -1px; /* Fine-tune vertical alignment */
+	height: 40px; /* Adjust as needed */
+	margin-top: 0;
 	display: inline-block;
+	transition: height 0.3s ease; /* Smooth transition when scrolling */
 }
 
 /* If the navbar background is dark, you might want to add some space around the logo */
@@ -239,17 +240,24 @@ box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.38);
 	color: #5A5A5A;
 }
 .header .navbar {
+	min-height: 70px; /* Adjust based on your logo size */
 	margin: 0;
 	background: #fff;
 	border: 0;
 }
+
+.addBg .navbar-brand img {
+	height: 30px; /* Slightly smaller when scrolled */
+}
+
 .navbar-inverse .navbar-nav > li > a {
-	font-size: 1.2em;
+	font-size: 1.2em; /* Change this to a larger value like 1.5em or 18px */
 	line-height: normal;
 	margin: 17px;
 	padding: 6px 10px !important;
 	border-radius: 5px;
 }
+
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
 	color: #11b2f7;
 	background: none;
