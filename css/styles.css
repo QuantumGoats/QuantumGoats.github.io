@@ -161,7 +161,6 @@ h2 {
 	display: inline-block;
 	margin-top: -20px;
 	margin-bottom: 20px;
-	transition: height 0.3s ease; /* Smooth transition when scrolling */
 }
 
 /* If the navbar background is dark, you might want to add some space around the logo */
