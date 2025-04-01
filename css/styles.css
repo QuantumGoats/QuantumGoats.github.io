@@ -130,6 +130,7 @@ h2 {
 }
 .header .navbar {
 	margin: 0;
+	min-height: 80px;
 	background: transparent !important;
 }
 .navbar-inverse .navbar-toggle .icon-bar {
@@ -156,9 +157,10 @@ h2 {
 }
 
 .navbar-brand img {
-	height: 40px; /* Adjust as needed */
-	margin-top: 0;
+	height: 100px; /* Adjust as needed */
 	display: inline-block;
+	margin-top: 5px;
+	margin-bottom: 5px;
 	transition: height 0.3s ease; /* Smooth transition when scrolling */
 }
 
@@ -170,7 +172,8 @@ h2 {
 .navbar-toggle {
 }
 .addBg {
-background: #000 !important;
+background: rgba(0, 0, 0, 0.9) !important; /* Adjust color as needed */
+padding: 5px 0;
 -webkit-box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.38);
 -moz-box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.38);
 box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.38);
@@ -251,11 +254,12 @@ box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.38);
 }
 
 .navbar-inverse .navbar-nav > li > a {
-	font-size: 1.2em; /* Change this to a larger value like 1.5em or 18px */
 	line-height: normal;
 	margin: 17px;
-	padding: 6px 10px !important;
 	border-radius: 5px;
+	font-size: 18px; /* or 1.5em */
+	font-weight: 500; /* Make it slightly bolder */
+	padding: 10px 15px !important;
 }
 
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
@@ -853,6 +857,7 @@ background: url(../images/bg2.png) top repeat;
 	padding-left: 0;
 }
 .navbar-nav {
+	margin-top: 15px;
 	float: right;
 }
 .navbar-inverse .navbar-nav > li > a {
