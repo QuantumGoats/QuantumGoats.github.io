@@ -441,7 +441,7 @@ padding-top:60px;
 /*parlex*/
 .bg-parlex {
 	padding-top: 0px;
-	background-image: url('../images/Screenshot-2018-10-23-at-10.24.53.png');
+	background-image: url('../images/1618527-1920x1080-desktop-full-hd-glasgow-scotland-wallpaper.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -870,10 +870,11 @@ background: url(../images/bg2.png) top repeat;
 
 @media (max-width: 768px) {
 .banner-container > img {
-	min-width: 100%;
-	height:400px;
-
+	width: 100%; /* Keep the width at 100% */
+	max-height: 500px; /* Adjust this value as needed */
+	object-fit: cover; /* This ensures the image covers the area without distortion */
 }
+
 .team-member .member-img img {
 	max-width: 100%;
 }
@@ -942,7 +943,7 @@ background:#000 !important;
 padding:0px 15px;
 }
 .heroText {
-margin-top: 30%;
+	margin-top: 15%; /* Reduced from 20% to match the smaller banner height */
 }
 .heroText h2{
 	font-size: 35px;
