@@ -159,7 +159,6 @@ h2 {
 .navbar-brand img {
 	height: 100px; /* Adjust as needed */
 	display: inline-block;
-	margin-top: 5px;
 	margin-bottom: 5px;
 	transition: height 0.3s ease; /* Smooth transition when scrolling */
 }
